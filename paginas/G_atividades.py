@@ -14,15 +14,14 @@ def formulario_atividades(grupo_atvd, lista_atvd):
     dados_atividades = {}
 
     # Verificando o grupo de atividade para colocar a descrição correta
-    match grupo_atvd:
-        case "A":
-            descricao_gp_atividades = descricao_dos_grupos[0]
-        case "B":
-            descricao_gp_atividades = descricao_dos_grupos[1]
-        case "C":
-            descricao_gp_atividades = descricao_dos_grupos[2]
-        case "D":
-            descricao_gp_atividades = descricao_dos_grupos[3]
+    if grupo_atvd == "A":
+        descricao_gp_atividades = descricao_dos_grupos[0]
+    elif grupo_atvd == "B":
+        descricao_gp_atividades = descricao_dos_grupos[1]
+    elif grupo_atvd == "C":
+        descricao_gp_atividades = descricao_dos_grupos[2]
+    elif grupo_atvd == "D":
+        descricao_gp_atividades = descricao_dos_grupos[3]
 
     with st.expander(f"{descricao_gp_atividades}", expanded=True): #Grupo {grupo_atvd} - 
         
@@ -75,15 +74,14 @@ def formulario_atividades(grupo_atvd, lista_atvd):
                 valor_total_atvd = f'{valor_total:_.2f}'
                 st.write(f'Valor total pago pela atividade do Grupo {grupo_atvd}: R$ {valor_total_atvd.replace(".",",").replace("_",".")}')
                 
-                match grupo_atvd:
-                    case "A":
-                        grupo_recebido = "A"
-                    case "B":
-                        grupo_recebido = "B"
-                    case "C":
-                        grupo_recebido = "C"
-                    case "D":
-                        grupo_recebido = "D"
+                if grupo_atvd == "A":
+                    grupo_recebido = "A"
+                elif grupo_atvd == "B":
+                    grupo_recebido = "B"
+                elif grupo_atvd == "C":
+                    grupo_recebido = "C"
+                elif grupo_atvd == "D":
+                    grupo_recebido = "D"
 
                 st.success("INFORMAÇÕES DA ATIVIDADE SALVAS COM SUCESSO!")#a depender da atividade o percentual de hora trabalhada muda FAZER UM IF
 
