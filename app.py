@@ -15,10 +15,10 @@ import os
 titulo_pag()
 
 # criando barra lateral
-opcao_escolhida = menu_lateral()
+opcao = menu_lateral()
 
 # Verificando qual campo do foi selecionado e Criando o formulário equivalente
-match opcao_escolhida:
+match opcao:
         case "Instruções para o preenchimento":
             st.markdown('<iframe src="https://scribehow.com/embed/Passo_a_passo_para_gerar_o_formulario_de_GECC__3iFPRlojQB67zK9rdJm9kw" width="640" height="640" allowfullscreen frameborder="0"></iframe>', unsafe_allow_html=True)
 
