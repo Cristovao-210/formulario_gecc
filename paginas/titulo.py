@@ -22,4 +22,4 @@ def titulo_pag():
           #with col_2:
                #Título da página
           st.subheader("SOLICITAÇÃO DE PAGAMENTO DE GECC")
-          st.text("         (Art. 76-A da Lei nº 8.112/1990, Decreto nº 11.069/2022-ME)")
+          st.text("(Art. 76-A da Lei nº 8.112/1990, Decreto nº 11.069/2022-ME)")
