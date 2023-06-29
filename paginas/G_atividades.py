@@ -54,8 +54,8 @@ def formulario_atividades(grupo_atvd, lista_atvd):
             with col_3:
                 dados_atividades['percentual_hora_cp_6'] = st.number_input("Percentual por hora trabalhada",
                                                                                 step=0.0001, format="%.4f", max_value=percen_hora_trabalhada)
-                # a base para o cálculo da hora trabalhada é resolução cad 04/2012 -  R$27.303,62 
-                ref_cad_04_2012 = 27303.62
+                # a base para o cálculo da hora trabalhada é PORTARIA SGPRT/MGI Nº 2.163, DE 12 DE MAIO DE 2023 -  R$29.760,95
+                ref_cad_04_2012 = 29760.95
                 valor_hora_trab = (dados_atividades["percentual_hora_cp_6"] * ref_cad_04_2012) / 100
                 dados_atividades['valor_hora_trab_cp_6'] = f'{valor_hora_trab:,.2f}'
                 dados_atividades['valor_total'] = 0.0
