@@ -13,13 +13,13 @@ def titulo_pag():
           
      # configurações logo e título
      with st.container():
-          #col_1, col_2 = st.columns([1,5])
-          #with col_1:
+          col_1, col_2 = st.columns([1,5])
+          with col_1:
                #logo unb
                #image = Image.open('img/logo_unb_2.png')
                #st.image(image, caption="Universidade de Brasília")
                #pass
-          #with col_2:
+               st.subheader('SOLICITAÇÃO DE PAGAMENTO DE GECC')
+          with col_2:
                #Título da página
-          st.subheader('SOLICITAÇÃO DE PAGAMENTO DE GECC')
-          st.write("(Art. 76-A da Lei nº 8.112/1990, Decreto nº 11.069/2022-ME)")
+               st.write("(Art. 76-A da Lei nº 8.112/1990, Decreto nº 11.069/2022-ME)")
