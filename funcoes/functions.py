@@ -18,31 +18,28 @@ lista_nome_arq_gerados = ["campo_atividades_A.txt",
 arquivos_atividades_nao_criados = ["", 0.0, 0.0, "", "", 0.0, 0.0]
 
 #dados_gecc = {}
-titulacao_item_1 = ["", "Experiência Comprovada",
-                         "Educação Profissional ou Tecnológica",
+titulacao_item_1 = ["",  "Ensino Médio",
                          "Graduação",
                          "Especialização",
                          "Mestrado",
-                         "Doutorado",
-                         "Pós-doutorado"]
+                         "Doutorado"
+                         ] #"Pós-doutorado" "Experiência Comprovada", "Educação Profissional ou Tecnológica",
 
 # Valores para cálculo do percentual
 percentuais_hora_trabalhada = {
     "A1": 1.47,
     "A2": 1.47,
-    "A3": 1.47,
-    "A4": 1.47,
+    "A3": 0.97,
+    "A4": 0.97,
     "A5": 1.47,
-    "A6": 0.97,
-    "A7": 0.5,
-    "A8": 1.47,
+    "A6": 1.47,
+    "A7": 1.47,
+    "A8": 0.50,
     "A9": 0.97,
     "A10": 0.97,
     "A11": 1.47,
-    "A12": 0.97,
-    "A13": 0.97,
-    "A14": 0.97,
-    "A15": 0.97,
+    "A12": 1.47,
+  
     "B1": 1.37,
     "B2": 0.8,
     "B3": 1.47,
@@ -51,11 +48,12 @@ percentuais_hora_trabalhada = {
     "B6": 1.17,
     "B7": 1.47,
     "B8": 1.47,
+  
     "C1": 0.8,
     "C2": 0.8,
     "C3": 0.6,
     "C4": 0.5,
-    "C5": 0.8,
+  
     "D1": 0.3,
     "D2": 0.6,
     "D3": 0.8
@@ -66,19 +64,16 @@ lista_de_atividades_A = [
     "",
     "A1 - Instrutoria em curso de formação de carreiras",
     "A2 - Instrutoria em curso de desenvolvimento e aperfeiçoamento",
-    "A3 - Instrutoria em curso gerencial",
-    "A4 - Instrutoria em curso de pós-graduação",
-    "A5 - Atividade de conferencista e de palestrante em evento de capacitação",
-    "A6 - Instrutoria em curso de treinamento",
-    "A7 - Instrutoria em curso de educação de jovens e adultos",
-    "A8 - Elaboração de material multimídia para curso a distância",
-    "A9 - Elaboração de material didático",
-    "A10 - Coordenação técnica e pedagógica",
-    "A11 - Orientação de trabalho de conclusão de curso de pós-graduação",
-    "A12 - Tutoria",
-    "A13 - Monitoria",
-    "A14 - Orientação para liderança",
-    "A15 - Mentoria"
+    "A3 - Instrutoria em curso de treinamento",
+    "A4 - Tutoria em curso a distância",
+    "A5 - Instrutoria em curso gerencial",
+    "A6 - Instrutoria em curso de pós-graduação",
+    "A7 - Orientação de monografia",
+    "A8 - Instrutoria em curso de educação de jovens e adultos",
+    "A9 - Coordenação técnica e pedagógica",
+    "A10 - Elaboração de material didático",
+    "A11 - Elaboração de material multimídia para curso a distância",
+    "A12 - Atividade de conferencista e de palestrante em evento de capacitação"
 
 ]
 
@@ -103,8 +98,7 @@ lista_de_atividades_C = [
     "C1 - Planejamento",
     "C2 - Coordenação",
     "C3 - Supervisão",
-    "C4 - Execução",
-    "C5 - Avaliação de resultado"
+    "C4 - Execução"
 ]
 
 # Atividades grupo 
@@ -119,10 +113,10 @@ lista_de_atividades_D = [
 # Nome dos grupos
 descricao_dos_grupos = [
 
-    "Atuar como instrutor em curso de formação, de desenvolvimento ou de treinamento regularmente instituído no âmbito da administração pública federal",
-    "Participar de banca examinadora ou de comissão para exames orais, para análise curricular, para correção de provas discursivas, para elaboração de questões de provas ou para julgamento de recursos interpostos por candidatos",
-    "Participar da logística de preparação e de realização de concurso público que envolva atividades de planejamento, coordenação, supervisão, execução e avaliação de resultado, quando tais atividades não estiverem incluídas entre as suas atribuições permanentes",
-    "Participar da aplicação, da fiscalização ou da avaliação de provas de exame vestibular ou de concurso público ou supervisionar essas atividades"
+    "Instrutoria em curso de formação, ou instrutoria em cursos de desenvolvimento ou de treinamento para servidores, regularmente instituído no âmbito da administração pública federal.",
+    "Banca examinadora ou de comissão para exames orais, análise curricular, correção de provas discursivas, elaboração de questões de provas ou para jugamento de recursos intentados por candidatos.",
+    "Logística de preparação e de realização de curso, concurso público ou exame vestibular - planejamento, coordenação, supervisão e execução.",
+    "Aplicação, fiscalização ou supervisão de provas de exame vestibular ou de concurso público."
 
 ]
 
