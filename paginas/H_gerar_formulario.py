@@ -413,7 +413,7 @@ def gerar_formulario_html(arq_serv, arq_dados_bancarios, arq_orgao_servidor, arq
             </td>
         </tr>
 	<tr>
- 		<td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">
+ 		<td colspan="3" style="border: 1px solid #dddddd; padding: 8px; text-align: center;">
 		    <span>
 		   Ao assinar o formulário de solicitação de pagamento,  declaro que os valores percebidos em virtude de GECC, cumulativamente ou não, incluídas as vantagens pessoais ou de qualquer outra natureza, não excederão ao teto remuneratório definido pela Constituição Federal. 
 		   </span>
