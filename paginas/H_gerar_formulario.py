@@ -405,6 +405,14 @@ def gerar_formulario_html(arq_serv, arq_dados_bancarios, arq_orgao_servidor, arq
                 </table>
             </td>
         </tr>
+        <tr>
+		<td height="16" align="left" valign=middle><font face="Arial Narrow" color="#000000"><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" colspan=50 align="left" valign=middle bgcolor="#C0C0C0"><b><font face="Arial Narrow">7 - Declaração de não incidência do teto remuneratório (art. 37, inciso XI da Constituição Federal)</font></b></td>
+		</tr>
+	<tr>
+		<td height="16" align="left" valign=middle><font face="Arial Narrow" color="#000000"><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=50 rowspan=2 align="justify" valign=middle><b><font face="Arial Narrow" color="#000000">Ao assinar o formulário de solicitação de pagamento,  declaro que os valores percebidos em virtude de GECC, cumulativamente ou não, incluídas as vantagens pessoais ou de qualquer outra natureza, não excederão ao teto remuneratório definido pela Constituição Federal.</font></b></td>
+		</tr>
     </table>''') 
            
     return [form_html, nome_do_arquivo]
