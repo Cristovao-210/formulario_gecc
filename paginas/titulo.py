@@ -16,7 +16,7 @@ def titulo_pag():
           #col_1, col_2 = st.columns([1,5])
           #Título da página
           st.subheader('SOLICITAÇÃO DE PAGAMENTO DE GECC')
-          col_1, col_2, col_3 = st.columns([1,2,1])
+          col_1, col_2, col_3 = st.columns([1,1,1])
           with col_1:
                #logo unb
                #image = Image.open('img/logo_unb_2.png')
