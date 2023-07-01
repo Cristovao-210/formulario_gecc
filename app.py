@@ -21,13 +21,13 @@ opcao = menu_lateral()
 if opcao == "Instruções para o preenchimento":
     # st.markdown('<iframe src="https://scribehow.com/embed/Passo_a_passo_para_gerar_o_formulario_de_GECC__3iFPRlojQB67zK9rdJm9kw" width="640" height="640" allowfullscreen frameborder="0"></iframe>', unsafe_allow_html=True)
 
-    # st.markdown("<br><br><p style='text-align: center;'>Instruções para inserir o formulário gerado no SEI</p><br>", unsafe_allow_html=True)
-    # try:
-    #     video_file = open('img/inseri_form_gecc_sei.mp4', 'rb')
-    #     video = video_file.read()
-    #     st.video(video, start_time=1)
-    # except:
-    #     st.error("Falha no carregamento do vídeo, aguarde alguns instantes e tente novamente.")
+    st.markdown("<br><br><p style='text-align: center;'>Instruções para o preenchimento e inserção do formulário gerado no SEI</p><br>", unsafe_allow_html=True)
+    try:
+        video_file = open('img/inseri_form_gecc_sei.mp4', 'rb')
+        video = video_file.read()
+        st.video(video, start_time=1)
+    except:
+        st.error("Falha no carregamento do vídeo, aguarde alguns instantes e tente novamente.")
     pass
 elif opcao == "Dados do Servidor":
     identificacao_servidor()
